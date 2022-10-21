@@ -19,4 +19,6 @@ body > div {
   max-width: 1300px;
   width: 95%;
   justify-content: center;
+
+  flex-direction: column;
 }
