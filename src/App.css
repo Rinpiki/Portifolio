@@ -16,8 +16,8 @@ body {
 
 body > div {
   display: flex;
-  max-width: 1300px;
-  width: 95%;
+  max-width: 1200px;
+  width: 90%;
   justify-content: center;
 
   flex-direction: column;
