@@ -22,3 +22,8 @@ body > div {
 
   flex-direction: column;
 }
+
+#hex {
+  filter: invert(31%) sepia(56%) saturate(223%) hue-rotate(156deg)
+    brightness(88%) contrast(84%);
+}
