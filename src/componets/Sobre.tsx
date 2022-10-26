@@ -10,7 +10,10 @@ import next from '../assets/icons/next.svg';
 
 function Sobre() {
   return (
-    <section id="shadow" className="flex flex-col items-center mt-16 mb-32 ]">
+    <section
+      id="shadow"
+      className="flex flex-col items-center mt-16 mb-16 mdx:mb-32"
+    >
       <div className="flex flex-col text-center justify-center items-center">
         <img
           src={hexagon}
@@ -35,7 +38,7 @@ function Sobre() {
           <span className="text-[#263138]"> Techs</span>
         </h3>
         <div>
-          <p className="text-[#445964] font-medium text-base mt-6 mdx:text-xl">
+          <p className="text-[#445964] font-medium text-base mt-3 mdx:text-xl">
             Tecnologias
           </p>
           <p className="text-[#445964] font-bold text-2xl mt-1 mdx:text-4xl">

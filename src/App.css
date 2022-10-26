@@ -28,8 +28,32 @@ body > div {
     brightness(88%) contrast(84%);
 }
 
+#grid {
+  display: grid;
+  grid-column-gap: 40px;
+  grid-row-gap: 30px;
+}
+
 @media (min-width: 800px) {
   #iconSobre {
     width: 72px;
+  }
+}
+@media (min-width: 760px) {
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
+  }
+}
+@media (min-width: 1100px) {
+  #grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
   }
 }
