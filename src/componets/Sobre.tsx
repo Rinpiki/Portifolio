@@ -10,7 +10,7 @@ import next from '../assets/icons/next.svg';
 
 function Sobre() {
   return (
-    <section className="flex flex-col items-center mt-16 mb-48">
+    <section id="shadow" className="flex flex-col items-center mt-16 mb-32 ]">
       <div className="flex flex-col text-center justify-center items-center">
         <img
           src={hexagon}
@@ -58,7 +58,7 @@ function Sobre() {
             Atualmente
             <span className="text-[#000000]"> Desenvolvendo</span>
           </p>
-          <div className="flex mt-2">
+          <div className="flex mt-2 mb-4">
             <img
               src={typee}
               alt="icon type"

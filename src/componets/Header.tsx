@@ -3,7 +3,7 @@ import Firsticon from '../assets/icons/Firsticon.svg';
 
 function Header() {
   return (
-    <header className="flex text-[#445964] justify-between w-full items-center p-2">
+    <header className="flex text-[#445964] justify-between w-full items-center p-2 ">
       <div className="flex text-[#445964] items-center mt-2 md:mt-4">
         <img
           src={Firsticon}
