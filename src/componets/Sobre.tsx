@@ -42,7 +42,7 @@ function Sobre() {
             Já
             <span className="text-[#000000]"> utilizadas</span>
           </p>
-          <div className="flex mt-2">
+          <div className="flex mt-2 space-x-4">
             <img src={html} id="iconSobre" alt="icon type" />
             <img src={css} id="iconSobre" alt="icon type" />
             <img src={javascript} id="iconSobre" alt="icon type" />
@@ -61,9 +61,8 @@ function Sobre() {
           <div className="flex mt-2">
             <img
               src={typee}
-              id="iconSobre"
               alt="icon type"
-              className="w-10 h-auto mr-1"
+              className="w-10 h-auto mr-1 mdx:w-14"
             />
             <img src={next} id="iconSobre" alt="icon type" />
           </div>
