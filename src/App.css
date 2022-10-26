@@ -27,3 +27,9 @@ body > div {
   filter: invert(31%) sepia(56%) saturate(223%) hue-rotate(156deg)
     brightness(88%) contrast(84%);
 }
+
+@media (min-width: 800px) {
+  #iconSobre {
+    width: 72px;
+  }
+}
