@@ -5,7 +5,10 @@ import Linkedin from '../assets/icons/Linkedin.svg';
 
 function Main() {
   return (
-    <main className="flex flex-col mdx:flex-row-reverse mdx:mt-12 mdx:items-center">
+    <main
+      id="home"
+      className="flex flex-col mdx:flex-row-reverse mdx:mt-12 mdx:items-center"
+    >
       <img
         src={Manpc}
         alt="programing man"
@@ -31,10 +34,10 @@ function Main() {
           Saiba mais sobre mim
         </span>
         <div className="flex mt-6 mdx:mt-[30px]">
-          <a href="/#">
+          <a href="https://github.com/Rinpiki">
             <img src={Git} alt="icone github" className="w-7 mr-3 mbx:w-9" />
           </a>
-          <a href="/#">
+          <a href="https://www.linkedin.com/in/marcos-pablo-09bb83243">
             <img src={Linkedin} alt="icone Linkedin" className="w-7 mbx:w-9" />
           </a>
         </div>
