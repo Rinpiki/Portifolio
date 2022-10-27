@@ -24,7 +24,9 @@ function Header() {
           <a href="#projetos">Projetos</a>
         </li>
         <li>
-          <a href="#contato">Contato</a>
+          <a href="https://www.linkedin.com/in/marcos-pablo-09bb83243">
+            Contato
+          </a>
         </li>
       </ul>
     </header>

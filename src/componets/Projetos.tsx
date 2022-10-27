@@ -5,7 +5,7 @@ import cartao from '../assets/img/cartao.png';
 
 function Projetos() {
   return (
-    <div id="projetos" className="mb-72 flex flex-col items-center ">
+    <div id="projetos" className="mb-60 flex flex-col items-center ">
       <div className="flex flex-col items-center mb-10">
         <h2 className="text-4xl font-bold text-[#445964] mdx:text-5xl text-center">
           Meus
@@ -25,7 +25,7 @@ function Projetos() {
           <h2 className="mb-2 text-[#263138] font-bold text-lg">KingBurgue</h2>
           <p className="text-[#445964] font-medium">
             Site sobre uma loja de fast-food, nele você pode encontrar todas as
-            informações necessárias sobre a loja em questão.
+            informações necessárias sobre a loja.
           </p>
           <div className="flex mt-4 mb-4 justify-between text-[#ffff]">
             <span className="bg-[#445964] p-2 rounded-lg">
