@@ -5,7 +5,7 @@ import cartao from '../assets/img/cartao.png';
 
 function Projetos() {
   return (
-    <div id="projetos" className="mb-60 flex flex-col items-center ">
+    <div id="projetos" className="mb-28 flex flex-col items-center ">
       <div className="flex flex-col items-center mb-10">
         <h2 className="text-4xl font-bold text-[#445964] mdx:text-5xl text-center">
           Meus

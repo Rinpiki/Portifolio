@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Footer from './componets/Footer';
 import Header from './componets/Header';
 import Main from './componets/Main';
 import Projetos from './componets/Projetos';
@@ -13,6 +14,7 @@ function App() {
       <Main />
       <Sobre />
       <Projetos />
+      <Footer />
     </>
   );
 }
