@@ -15,7 +15,7 @@ function Projetos() {
           Estes são alguns dos trabalhos e projetos que já realizei
         </p>
       </div>
-      <div id="grid" className="">
+      <div id="grid">
         <div className="flex flex-col w-80 p-4 bg-[#FBFBFB] drop-shadow-lg rounded-md">
           <img
             src={burgue}
