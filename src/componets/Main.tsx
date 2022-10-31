@@ -30,7 +30,7 @@ function Main() {
           Seja bem-vindo ao meu portifólio website
         </span>
         <br />
-        <span className="text-[#FFFFFF] bg-[#263138] py-[8px] px-[16px] inline-block mt-4 rounded-xl font-semibold mbx:text-xl mdx:mt-[40px] xll:text-2xl lgg:mb-10">
+        <span className="text-[#FFFFFF] bg-[#263138] hover:scale-110 duration-300 cursor-pointer py-[8px] px-[16px] inline-block mt-4 rounded-xl font-semibold mbx:text-xl mdx:mt-[40px] xll:text-2xl lgg:mb-10">
           Saiba mais sobre mim
         </span>
         <div className="flex mt-6 mdx:mt-[30px]">

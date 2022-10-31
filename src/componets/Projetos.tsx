@@ -16,7 +16,7 @@ function Projetos() {
         </p>
       </div>
       <div id="grid">
-        <div className="flex flex-col w-80 p-4 bg-[#FBFBFB] drop-shadow-lg rounded-md">
+        <div className="flex flex-col w-80 p-4 hover:scale-110 duration-300 bg-[#FBFBFB] drop-shadow-lg rounded-md">
           <img
             src={burgue}
             alt="img de site de burgue"
@@ -36,7 +36,7 @@ function Projetos() {
             </span>
           </div>
         </div>
-        <div className="flex flex-col w-80 p-4 bg-[#FBFBFB] drop-shadow-lg rounded-md">
+        <div className="flex flex-col hover:scale-110 duration-300 w-80 p-4 bg-[#FBFBFB] drop-shadow-lg rounded-md">
           <img
             src={boldo}
             alt="img de site de burgue"
@@ -56,7 +56,7 @@ function Projetos() {
             </span>
           </div>
         </div>
-        <div className="flex flex-col w-80 p-4 bg-[#FBFBFB] drop-shadow-lg rounded-md">
+        <div className="flex flex-col hover:scale-110 duration-300 w-80 p-4 bg-[#FBFBFB] drop-shadow-lg rounded-md">
           <img
             src={cartao}
             alt="img de site de burgue"
