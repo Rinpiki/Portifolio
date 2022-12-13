@@ -2,6 +2,8 @@ import React from 'react';
 import burgue from '../assets/img/burgue.png';
 import boldo from '../assets/img/boldo.png';
 import cartao from '../assets/img/cartao.png';
+import xbox from '../assets/img/xbox.png';
+import go from '../assets/img/go.png';
 
 function Projetos() {
   return (
@@ -75,6 +77,43 @@ function Projetos() {
             </span>
             <span className="bg-[#445964] p-2 rounded-lg">
               <a href="https://stellar-salmiakki-e3ab7b.netlify.app/">View</a>
+            </span>
+          </div>
+        </div>
+        <div className="flex flex-col hover:scale-110 duration-300 w-80 p-4 bg-[#FBFBFB] drop-shadow-lg rounded-md">
+          <img
+            src={xbox}
+            alt="img de site de burgue"
+            className="mb-4 rounded-md"
+          />
+          <h2 className="mb-2 text-[#263138] font-bold text-lg">XBOX Page</h2>
+          <p className="text-[#445964] font-medium">
+            Um belo cartão com conselhos que consome uma API para mostrar vários
+            conselhos com um click.
+          </p>
+          <div className="flex mt-4 mb-4 justify-between text-[#ffff]">
+            <span className="bg-[#445964] p-2 rounded-lg">
+              <a href="https://github.com/Rinpiki/Xbox-page">Code</a>
+            </span>
+            <span className="bg-[#445964] p-2 rounded-lg">
+              <a href="https://xbox-page-one.vercel.app/">View</a>
+            </span>
+          </div>
+        </div>
+        <div className="flex flex-col hover:scale-110 duration-300 w-80 p-4 bg-[#FBFBFB] drop-shadow-lg rounded-md">
+          <img
+            src={go}
+            alt="img de site de burgue"
+            className="mb-4 rounded-md h-[143px]"
+          />
+          <h2 className="mb-2 text-[#263138] font-bold text-lg">GoNews</h2>
+          <p className="text-[#445964] font-medium">
+            GoNewsé um site simples de noticias, ele foi pensado em ser direto
+            ao ponto e rápido.
+          </p>
+          <div className="flex mt-4 mb-4 justify-between text-[#ffff]">
+            <span className="bg-[#445964] p-2 rounded-lg w-full text-center">
+              <a href="https://github.com/Rinpiki/GoNews">Code</a>
             </span>
           </div>
         </div>
