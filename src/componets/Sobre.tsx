@@ -29,7 +29,8 @@ function Sobre() {
           Meu nome é Marcos Pablo👋 Eu moro no Brasil, Trindade/Goias.
         </span>
         <span className="text-[#445964] font-medium text-base lgg:text-2xl">
-          Sou desenvolvedor front-end, bla bla bla bla bla bla bla bla bla.
+          Sou desenvolvedor front-end, adoro programar e estou nessa já faz 1
+          ano.
         </span>
       </div>
       <div className="mt-9 flex flex-col text-center justify-center items-center">
